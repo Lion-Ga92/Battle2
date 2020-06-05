@@ -12,10 +12,6 @@ cure = Spell("Cure", 12, 120, "white")
 cura = Spell("Cura", 18, 200, "white")
 
 
-magic = [{"name": "Fire", "cost": 10, "dmg": 100},
-         {"name": "Thunder", "cost": 10, "dmg": 124},
-         {"name": "Blizzard", "cost": 10, "dmg": 100}]
-
 #instatiate people
 player = Person(460, 65, 60, 34, [fire, thunder, blizzard, meteor, quake, cure, cura])
 enemy = Person(1200, 65, 45, 25, [])
